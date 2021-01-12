@@ -133,6 +133,9 @@ if (argv.from && argv.to) {
 
 // get a report
 // node lh.js --url www.keeferealestate.com
+// node lh.js --url https://www.onesothebysrealty.com
+
+// this will oepn a chrome window and run the lighthouse score, then download it into its own directory
 
 // compare two reports 
-// 
+// node lh.js --from --to
